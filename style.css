@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    background-color: rgb(234, 243, 243);
+    font-style: italic;
+}
+header img{
+    width:5rem;
+    height:5rem;
+}
+header strong{
+    font-weight: bold;
+    font-size:xx-large;
+    
+}
+.selection-box{
+    background-color: grey;
+    border:5px solid white;
+    border-radius: 1rem;
+    
+}
+.selection-box label{
+   color:white;
+   font-weight: bold;
+   font-size: medium;
+   padding-right:5px;
+}
+.selection-box select{
+   font-size: medium;
+   border:1px solid grey;
+   border-radius:0.5rem;
+   margin-top:0.5rem;
+}
+#displayDetails{
+    background-color: rgb(180, 177, 177);
+    border:5px solid white;
+    border-radius: 1rem;
+    visibility: hidden;
+}
+.col h5{
+    text-align:right;
+}
+.col1 h5{
+    text-align:left;
+}
